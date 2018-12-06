@@ -7,14 +7,14 @@ const Navbar = () => {
         <div>
         {isUserLoggedIn() &&
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="#">Navbar</a>
+  <a className="navbar-brand" href="#">PGS Messenger</a>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+        <Link className="nav-link" to="/">Main Chat <span className="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/Other">Other</Link>
+        <Link className="nav-link" to="/Other">Private Chat</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link" to="/logout">Logout</Link>
